@@ -287,9 +287,7 @@ For PhpStorm users, install the [MetaStorm](https://plugins.jetbrains.com/plugin
 ## Cross-references
 
 - **moonshine-resources-v3** -- Creating and configuring ModelResource classes, CRUD operations, fields, filters, and actions.
-- **moonshine-pages-v3** -- Building custom pages, page components, and layout customization.
 - **moonshine-fields-v3** -- Field types, validation, and field configuration.
 - **moonshine-components-v3** -- UI components (Grid, Column, Box, LineBreak, etc.).
-- **moonshine-menu-v3** -- Menu configuration and navigation structure.
-- **moonshine-auth-v3** -- Authentication customization, guards, pipelines, and user management.
-- **moonshine-localization-v3** -- Advanced localization, translation files, and multi-language support.
+- **moonshine-appearance-v3** -- Layouts, menus, custom pages, and navigation structure.
+- **moonshine-security-v3** -- Authentication customization, guards, pipelines, and user management.

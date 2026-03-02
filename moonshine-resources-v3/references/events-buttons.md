@@ -511,4 +511,4 @@ protected function fragmentMetrics(): ?Closure
 }
 ```
 
-> For advanced metric types (DonutChartMetric, LineChartMetric), see the `moonshine-components` skill.
+> For advanced metric types (DonutChartMetric, LineChartMetric), see the `moonshine-components-v3` skill.

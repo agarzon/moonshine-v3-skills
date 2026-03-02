@@ -333,20 +333,12 @@ protected function topButtons(): ListOf
     );
 }
 
-// Per-row buttons in the index table
+// Per-row buttons in the index table (also supports ->bulk() for bulk actions)
 protected function indexButtons(): ListOf
 {
-    return parent::indexButtons()->add(
-        ActionButton::make('Link', '/endpoint')
-    );
-}
-
-// Bulk action button
-protected function indexButtons(): ListOf
-{
-    return parent::indexButtons()->add(
-        ActionButton::make('Bulk Action', '/endpoint')->bulk()
-    );
+    return parent::indexButtons()
+        ->add(ActionButton::make('Link', '/endpoint'))
+        ->add(ActionButton::make('Bulk Action', '/endpoint')->bulk());
 }
 ```
 
@@ -483,7 +475,7 @@ public function modifyMassDeleteResponse(MoonShineJsonResponse $response): MoonS
 ## Cross-References
 
 - For field types and relationship fields, see the `moonshine-fields-v3` skill.
-- For ActionButton advanced usage, see the `moonshine-action-button` skill.
+- For ActionButton advanced usage, see the `moonshine-components-v3` skill.
 - For Layout and menu configuration, see the `moonshine-appearance-v3` skill.
 - For TableBuilder and FormBuilder components, see the `moonshine-components-v3` skill.
 - Detailed CRUD page customization: `references/crud-pages.md`

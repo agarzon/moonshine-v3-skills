@@ -213,7 +213,7 @@ Typical setup in `config/moonshine.php`:
 - Subsequent requests include the token in the `Authorization: Bearer <token>` header.
 - The `AuthenticateApi` middleware validates the token and sets the authenticated user on the MoonShine guard.
 
-For full API integration details, see the **moonshine-frontend** skill (API section).
+For full API integration details, see the **moonshine-frontend-v3** skill (API section).
 
 ---
 
